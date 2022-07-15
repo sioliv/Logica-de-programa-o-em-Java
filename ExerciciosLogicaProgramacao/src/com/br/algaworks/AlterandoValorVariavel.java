@@ -19,6 +19,8 @@ public class AlterandoValorVariavel {
 		
 		if (pagamentoAVista) {
 			
+			juros = 0.0;
+			
 		}else {
 			juros = 10.0;
 		}
