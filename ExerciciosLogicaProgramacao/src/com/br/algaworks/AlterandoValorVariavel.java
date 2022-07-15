@@ -17,12 +17,10 @@ public class AlterandoValorVariavel {
 		
 		Double juros = 0.0;
 		
-		if (pagamentoAVista) {
+		if (!pagamentoAVista) {
 			
-			juros = 0.0;
-			
-		}else {
 			juros = 10.0;
+			
 		}
 		
 		Double acrescimoJurosProduto = produto * juros / 100;
