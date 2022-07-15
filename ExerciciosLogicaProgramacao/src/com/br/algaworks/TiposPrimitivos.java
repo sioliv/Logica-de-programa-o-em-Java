@@ -6,7 +6,7 @@ public class TiposPrimitivos {
 		
 		String variavelString = "string";
 		
-		Byte variavelByte = 1;
+		Byte variavelByte = null;
 		
 		Short variavelShort = 1;
 		
