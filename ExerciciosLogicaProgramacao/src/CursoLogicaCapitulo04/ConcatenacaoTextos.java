@@ -4,12 +4,14 @@ public class ConcatenacaoTextos {
 
 	public static void main(String[] args) {
 		String inicio = "Esse "; //  String vazia quando abro e fecho aspas duplas
-		String meio = "É um exemplo ";
-		String fim = "de concatenação de textos.";
+		String meio = "o  um exemplo ";
+		String fim = "sobre concatenação de textos.";
+		Integer numeroExemplo = 1 ;
 		
-		System.out.println(inicio + meio + fim);
 		
-		System.out.println("Esse " +  meio + " de concatenação de textos.");
+		System.out.println(inicio + numeroExemplo + meio + fim);
+		
+		//System.out.println("Esse " +  meio + " de concatenação de textos.");
 
 	}
 
