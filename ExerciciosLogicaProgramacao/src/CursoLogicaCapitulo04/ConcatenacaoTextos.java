@@ -8,6 +8,8 @@ public class ConcatenacaoTextos {
 		String fim = "de concatenação de textos.";
 		
 		System.out.println(inicio + meio + fim);
+		
+		System.out.println("Esse " +  meio + " de concatenação de textos.");
 
 	}
 
