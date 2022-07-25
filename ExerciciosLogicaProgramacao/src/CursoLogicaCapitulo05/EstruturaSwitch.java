@@ -38,9 +38,11 @@ public class EstruturaSwitch {
 			break;
 		case 12: desconto = 0.0;
 			break;
+		default: 
+			System.out.println("Seu desconto será de: " + desconto + "%");	
 		}
 		
-		System.out.println("Seu desconto será de: " + desconto + "%");
+		
 		
 		scanner.close();
 
