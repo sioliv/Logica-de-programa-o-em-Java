@@ -36,6 +36,7 @@ public class Exercicio02 {
 			bonusFaturamentoMenorQueMeta = (mediaSalarialDoFuncionario * 80) / 100;
 			
 			System.out.println(bonusFaturamentoMenorQueMeta);
+			
 		} else {
 			System.out.println("Infelizmente, esse ano não tem bônus!");
 		}
