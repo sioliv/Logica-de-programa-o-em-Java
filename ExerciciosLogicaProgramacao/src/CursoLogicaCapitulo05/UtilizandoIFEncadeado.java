@@ -16,15 +16,12 @@ public class UtilizandoIFEncadeado {
 		
 		if(ehPesoLeve) {
 			System.out.println("O lutador é peso leve");
-		}
-		
-		if(ehPesoMedio) {
-			System.out.println("O lutador é peso medio");
-		}
-		
-		if(ehPesoPesado) {
+		} else if (ehPesoMedio) {
+			System.out.println("O lutador é peso médio");
+		} else if (ehPesoPesado) {
 			System.out.println("O lutador é peso pesado");
 		}
+	
 		
 		entrada.close();
 
