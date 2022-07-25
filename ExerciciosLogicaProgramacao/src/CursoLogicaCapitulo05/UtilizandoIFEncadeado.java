@@ -10,7 +10,7 @@ public class UtilizandoIFEncadeado {
 		
 		Double pesoDoLutador = entrada.nextDouble();
 		
-		Boolean ehPesoLeve = pesoDoLutador <= 60;
+		Boolean ehPesoLeve = (pesoDoLutador <= 60) && (pesoDoLutador > 0);
 		Boolean ehPesoMedio = (pesoDoLutador > 60 ) && (pesoDoLutador <=90);
 		Boolean ehPesoPesado = pesoDoLutador > 90; 
 		
