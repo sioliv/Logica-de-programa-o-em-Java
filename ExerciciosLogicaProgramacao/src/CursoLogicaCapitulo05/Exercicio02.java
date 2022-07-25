@@ -20,7 +20,8 @@ public class Exercicio02 {
 		Double oitentaPorCentoDoValorDaMeta = (metaDoFaturamentoAnual * 8.0) / 10;
 		
 		Boolean faturamentoParaBonus = faturamentoRealDaEmpresa >= metaDoFaturamentoAnual;
-		Boolean faturamentoMenorQueAmeta =  (faturamentoRealDaEmpresa < metaDoFaturamentoAnual) && (faturamentoRealDaEmpresa >= oitentaPorCentoDoValorDaMeta);
+		
+		Boolean faturamentoMenorQueAmeta =  (faturamentoRealDaEmpresa >= oitentaPorCentoDoValorDaMeta);
 		
 		
 		Double bonus = 0.0;
@@ -32,7 +33,7 @@ public class Exercicio02 {
 			System.out.println("Você ganhou bonus integral!" + bonus);
 			
 		} else if (faturamentoMenorQueAmeta ) {
-			bonusFaturamentoMenorQueMeta = bonusFaturamentoMenorQueMeta + oitentaPorCentoDoValorDaMeta;
+			bonusFaturamentoMenorQueMeta = (mediaSalarialDoFuncionario * 80) / 100;
 			
 			System.out.println(bonusFaturamentoMenorQueMeta);
 		} else {
