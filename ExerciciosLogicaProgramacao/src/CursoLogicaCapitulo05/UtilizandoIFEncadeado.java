@@ -20,6 +20,8 @@ public class UtilizandoIFEncadeado {
 			System.out.println("O lutador é peso médio");
 		} else if (ehPesoPesado) {
 			System.out.println("O lutador é peso pesado");
+		}	else {
+			System.out.println("O lutador não se encaixa em nenhuma categoria");
 		}
 	
 		
