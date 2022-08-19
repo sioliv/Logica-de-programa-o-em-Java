@@ -6,7 +6,9 @@ public class MetodoInstancia {
 		//O método da classe é conhecido como método de instância. É um método não estático definido na classe.
 		//Antes de chamar ou invocar o método de instância, é necessário criar um objeto de sua classe.
 		
+		//Criando um objeto da classe  
 		Cliente cliente = new Cliente();
+		
 		cliente.primeiroNome = "Alexandre";
 		cliente.segundoNome = "Afonso";
 		cliente.telefone = "0000000000";
@@ -14,6 +16,7 @@ public class MetodoInstancia {
 		
 		//Toda vez eu declaro a variável e uso o método, é um método de instância.
 		//Não cria variáveis estáticas dentro de uma classe que visa bstrair conceitos. Ex dentro da classe Cliente, não posso criar métodos estáticos
+		 //invocando o método da instância   
 		System.out.println("Nome cliente: " + cliente.obterNomeCompletoCliente());
 		
 	}
