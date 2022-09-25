@@ -1,0 +1,6 @@
+tree 2db5ed27da7ec2c0df7f92039c28143fb9363e33
+author sioliv <silvinha.olivert@gmail.com> 1660087554 -0300
+committer sioliv <silvinha.olivert@gmail.com> 1660087554 -0300
+
+pequena calculadora de subtração e divisão utilizando switch case,
+vetores e metodos
